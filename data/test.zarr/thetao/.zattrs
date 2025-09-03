@@ -1,0 +1,16 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time",
+        "depth",
+        "latitude",
+        "longitude"
+    ],
+    "add_offset": 10.0,
+    "long_name": "Temperature",
+    "scale_factor": 0.0010000000474974513,
+    "standard_name": "sea_water_potential_temperature",
+    "unit_long": "degrees_C",
+    "units": "degrees_C",
+    "valid_max": 22000,
+    "valid_min": -16000
+}

@@ -1,0 +1,181 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "Conventions": "CF-1.8",
+            "comment": "",
+            "contact": "https://marine.copernicus.eu/contact",
+            "institution": "NOW Systems (Spain)",
+            "references": "http://marine.copernicus.eu/",
+            "source": "NEMO3.6",
+            "title": "Ocean 3D hourly mean fields for the Iberia-Biscay-Ireland (IBI) region"
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "depth/.zarray": {
+            "chunks": [
+                8
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                8
+            ],
+            "zarr_format": 2
+        },
+        "depth/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth"
+            ],
+            "axis": "Z",
+            "long_name": "Depth",
+            "positive": "down",
+            "standard_name": "depth",
+            "unit_long": "Meters",
+            "units": "m"
+        },
+        "latitude/.zarray": {
+            "chunks": [
+                1078
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                180
+            ],
+            "zarr_format": 2
+        },
+        "latitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude"
+            ],
+            "axis": "Y",
+            "long_name": "Latitude",
+            "standard_name": "latitude",
+            "unit_long": "Degrees North",
+            "units": "degrees_north"
+        },
+        "longitude/.zarray": {
+            "chunks": [
+                871
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                324
+            ],
+            "zarr_format": 2
+        },
+        "longitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "longitude"
+            ],
+            "axis": "X",
+            "long_name": "Longitude",
+            "standard_name": "longitude",
+            "unit_long": "Degrees East",
+            "units": "degrees_east"
+        },
+        "thetao/.zarray": {
+            "chunks": [
+                1,
+                1,
+                1014,
+                840
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i2",
+            "fill_value": -32767,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                24,
+                8,
+                180,
+                324
+            ],
+            "zarr_format": 2
+        },
+        "thetao/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time",
+                "depth",
+                "latitude",
+                "longitude"
+            ],
+            "add_offset": 10.0,
+            "long_name": "Temperature",
+            "scale_factor": 0.0010000000474974513,
+            "standard_name": "sea_water_potential_temperature",
+            "unit_long": "degrees_C",
+            "units": "degrees_C",
+            "valid_max": 22000,
+            "valid_min": -16000
+        },
+        "time/.zarray": {
+            "chunks": [
+                144
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                24
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "axis": "T",
+            "calendar": "gregorian",
+            "long_name": "Time",
+            "standard_name": "time",
+            "unit_long": "Hours Since 1950-01-01",
+            "units": "hours since 1950-01-01"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

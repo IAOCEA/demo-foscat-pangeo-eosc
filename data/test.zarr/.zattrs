@@ -1,0 +1,9 @@
+{
+    "Conventions": "CF-1.8",
+    "comment": "",
+    "contact": "https://marine.copernicus.eu/contact",
+    "institution": "NOW Systems (Spain)",
+    "references": "http://marine.copernicus.eu/",
+    "source": "NEMO3.6",
+    "title": "Ocean 3D hourly mean fields for the Iberia-Biscay-Ireland (IBI) region"
+}
